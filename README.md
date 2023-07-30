@@ -1,5 +1,5 @@
 # Introduction
-Script is redirecting you instantly to new created free case battle
+Script is redirecting you instantly to a new created free case battle
 # Usage
 1. Open https://key-drop.com/en/case-battle/list
 2. Copy a script
