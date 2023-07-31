@@ -7,18 +7,20 @@
 
     // Callback function to execute when mutations are observed
     const callback = (mutationList, observer) => {
-    for (const mutation of mutationList) {
-        // info about the new battle
-        info = mutation.addedNodes[0].innerText
+        for (const mutation of mutationList) {
+            if(mutation.addedNodes.length){
+                // info about the new battle
+                info = mutation.addedNodes[0].innerText
 
-        // link to the new battle
-        battle_link = mutation.addedNodes[0].querySelector('a').href
+                // link to the new battle
+                battle_link = mutation.addedNodes[0].querySelector('a').href
 
-        // if battle is free then app will open it
-        if(info.includes("FREE")) {
-            window.location.href = battle_link
-        } 
-    }
+                // if battle is free then app will open it
+                if(info.includes("FREE")) {
+                    window.location.href = battle_link
+                } 
+            }
+        }
     };
 
     // Create an observer instance linked to the callback function
