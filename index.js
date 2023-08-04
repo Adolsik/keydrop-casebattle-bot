@@ -10,7 +10,7 @@
         for (const mutation of mutationList) {
             if(mutation.addedNodes[0].querySelector('span[class="text-center text-sm font-bold text-green"]')){
                 // redirect to the new battle
-                window.location.href = mutation.addedNodes[0].querySelector('a').href
+                mutation.addedNodes[0].querySelector('a').click()
             }
         }
     };
