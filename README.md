@@ -27,4 +27,4 @@ Script is redirecting you instantly to a new created free case battle
 
 ```
 3. Open console `Ctrl + Shift + J` or `Ctrl + Shift + I`
-4. Paste the code and you are ready to go!
+5. Paste the code and you are ready to go! (do not worry about 'Uncaught' Type Errors)
