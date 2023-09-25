@@ -1,7 +1,7 @@
 # Introduction
 Script is redirecting you instantly to a new created free case battle (x1 ticket)
 # Usage
-1. Open https://key-drop.com/en/case-battle/list
+1. Open https://key-drop.com/en/case-battle/list and wait for it to fully load
 2. Copy a script
 ```javascript   
     // Target node: tbody[class="relative"]; New battles appear here
@@ -28,4 +28,6 @@ Script is redirecting you instantly to a new created free case battle (x1 ticket
 
 ```
 3. Open console `Ctrl + Shift + J` or `Ctrl + Shift + I`
-5. Paste the code and you are ready to go! (do not worry about 'Uncaught' Type Errors)
+4. Paste the code and you are ready to go! (do not worry about 'Uncaught' Type Errors)
+# Out of date 
+- If the code does not work let me know in the Issues section. I will update it to the latest version of keydrop.
