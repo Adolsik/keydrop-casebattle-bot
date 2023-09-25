@@ -30,4 +30,4 @@ Script is redirecting you instantly to a new created free case battle (x1 ticket
 3. Open console `Ctrl + Shift + J` or `Ctrl + Shift + I`
 4. Paste the code and you are ready to go! (do not worry about 'Uncaught' Type Errors)
 # Out of date 
-- If the code does not work let me know in the Issues section. I will update it to the latest version of keydrop.
+- If the code does not work let me know in the [Issues section](https://github.com/Adolsik/keydrop-casebattle-script/issues). I will update it to the latest version of keydrop.
