@@ -8,7 +8,7 @@
     // Callback function to execute when mutations are observed
     const callback = (mutationList, observer) => {
         for (const mutation of mutationList) {
-            if(mutation.addedNodes[0].querySelector('p[class="text-center text-[9px] font-semibold leading-none xl:text-[10px]"]').innerText === 'x1'){
+            if(mutation.addedNodes[0].querySelector('p[class="absolute top-1/2 -translate-y-1/2 rounded-r tabular-nums pr-1.5 py-0.5 text-center text-[9px] font-semibold xl:text-[10px] bg-navy-750"]')){
                 // redirect to the new battle
                 mutation.addedNodes[0].querySelector('a').click()
             }
